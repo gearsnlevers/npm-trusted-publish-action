@@ -72,7 +72,7 @@ jobs:
       - run: npm run build
 
       - name: Publish package
-        uses: vscheuber/npm-trusted-publish-action@v1
+        uses: gearsnlevers/npm-trusted-publish-action@v1
         with:
           release-type: prerelease
           package-name: '@my-scope/my-package'
@@ -82,7 +82,7 @@ jobs:
 
 ```yaml
 - name: Publish stable and companion prerelease
-  uses: vscheuber/npm-trusted-publish-action@v1
+  uses: gearsnlevers/npm-trusted-publish-action@v1
   with:
     release-type: patch
     package-name: '@my-scope/my-package'
