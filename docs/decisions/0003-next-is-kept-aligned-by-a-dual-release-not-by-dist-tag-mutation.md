@@ -7,6 +7,7 @@ applies-to:
   - scripts/publish.sh
   - action.yml
   - README.md
+seal: sha256-g1:4ea37fcedae5df7d50d48d750812e34ca5c63035fc455ebfec93223b82fb426c
 ---
 
 # next is kept aligned by a dual release, not by dist-tag mutation

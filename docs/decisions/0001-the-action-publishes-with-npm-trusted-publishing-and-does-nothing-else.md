@@ -7,6 +7,7 @@ applies-to:
   - action.yml
   - scripts/publish.sh
   - README.md
+seal: sha256-g1:f65d7a3fca68bcd4a45a0f9808234b937813361a0c1ddad1d33c854d8411b3f1
 ---
 
 # The action publishes with npm trusted publishing and does nothing else
