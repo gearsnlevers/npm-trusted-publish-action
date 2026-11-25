@@ -6,6 +6,7 @@ decision-makers:
 applies-to:
   - scripts/publish.sh
   - README.md
+seal: sha256-g1:24862036e1a38b5908f3a01c5794dbfde439658a9124a0e8cda06ae73780a4f2
 ---
 
 # A version that is already on npm is not an error

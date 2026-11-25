@@ -8,6 +8,7 @@ applies-to:
   - action.yml
 issues:
   - vscheuber/npm-trusted-publish-action#1
+seal: sha256-g1:44fa0ef952ff9a39234927238170f6cfdc3030a23ba945e708d897cd2ada7640
 ---
 
 # The release type chooses the channel
